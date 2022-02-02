@@ -11,6 +11,41 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="./icomoons/style.css">
+    <style>
+         nav {
+            background-color: none;
+        }
+
+        .headerSection .nav-tabs {
+            border-bottom: none;
+        }
+
+        .nav-tabs .nav-link.active {
+            background-color: transparent;
+            border-color: transparent;
+            border-bottom: 2px solid #F1AC4D;
+            font-family: PopReg;
+            font-size: 18px;
+            color: #ffffff;
+        }
+
+        .nav-tabs .nav-link {
+            font-family: PopReg;
+            font-size: 18px;
+            color: #8695A8;
+
+            border: transparent;
+        }
+
+        .nav-tabs .nav-link:hover {
+            border-left: transparent;
+            border-right: transparent;
+            border-top: transparent;
+            border-bottom: 2px solid #F1AC4D;
+            font-family: PopReg;
+            font-size: 18px;
+        }
+    </style>
 </head>
 <body>
     <header class="sticky-top">
@@ -44,25 +79,25 @@
         <section class="dynamic-tabs-container">
             <div class="container">
                 <ul class="nav dynamic-tabs-list">
-                    <li class="nav-item">
-                      <a class="nav-link nav-list-items dynamic-tabs lectures " data-toggle="tab" href="#lectures">Lectures</a>
+                    <li class="nav-item item-1 active">
+                      <a class="nav-link nav-list-items dynamic-tabs lectures active" data-toggle="tab" href="#lectures">Lectures</a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link dynamic-tabs host-a-lecture" data-toggle="tab" href="#host-a-lecture">Host a Lecture</a>
+                    <li class="nav-item item-1">
+                      <a class="nav-link dynamic-tabs host-a-lecture item-lecture" data-toggle="tab" href="#host-a-lecture">Host a Lecture</a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link dynamic-tabs winners-symposium" data-toggle="tab" href="#winners-symposium">Winners symposium</a>
+                    <li class="nav-item item-1">
+                      <a class="nav-link dynamic-tabs winners-symposium item-lecture" data-toggle="tab" href="#winners-symposium">Winners symposium</a>
                     </li>
                   </ul>
             </div>
         </section>
     </header>
-    <main>
+    <main >
         <div class="tab-content">
             <div class="empty-space"></div>
             <div id="lectures" class="container tab-pane active">
                 <div class="row no-gutters">
-                    <p class="text-white">
+                    <p class="text-white mt-sm-5">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
