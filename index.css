@@ -16,7 +16,7 @@
 }
 @font-face {
     font-family: Roboto-regular;
-    src: url(./fonts/Roboto-Regular.ttf);
+    src: url(./poppins/Roboto-Regular.ttf);
 }
 body {
     background-color: #14202E;
