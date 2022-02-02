@@ -93,12 +93,20 @@ body {
     width: 20px;
     background: #F1AC4D;
 }
+.empty-space{
+    height: 20vh;
+    background-color: #14202E;
+    
+}
 
 
 .search-icon::before {
     content: "\e907";
     font-family: icomoon;
     font: 35px;
+}
+.dynamic-tabs-container{
+    background-color: #14202E;
 }
 
 .dynamic-tabs-list {
